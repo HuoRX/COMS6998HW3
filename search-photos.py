@@ -30,8 +30,8 @@ def lambda_handler(event, context):
                              service = 'es'
                              #credentials = boto3.Session().get_credentials()
                              #awsauth = AWS4Auth(credentials.access_key, credentials.secret_key, region, service)
-                             my_access_key = 'AKIAIJ6IAHHKQALOWIPA'
-                             my_secret_key = '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'
+                             
+                             
                              awsauth = AWS4Auth(my_access_key, my_secret_key,
                                                 region, service)
                              es = Elasticsearch(
