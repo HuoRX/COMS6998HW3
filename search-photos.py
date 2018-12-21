@@ -24,7 +24,7 @@ def lambda_handler(event, context):
                              
                              #### for elastic search ####
                              
-                             host = 'vpc-photo-album-45bz2xdnfx6377asiud5qb2ary.us-east-2.es.amazonaws.com' # For example, my-test-domain.us-east-1.es.amazonaws.com
+                             host = # For example, my-test-domain.us-east-1.es.amazonaws.com
                              region = 'us-east-2' # e.g. us-west-1
                              
                              service = 'es'
