@@ -65,7 +65,7 @@ def lambda_handler(event, context):
                                                                      i = 0
                                                                          for result in results:
                                                                              result = result['hits']['hits'][i]['_source']
-                                                                             url = "https://s3.us-east-2.amazonaws.com/myphoto.xyw/"+result['objectKey']
+                                                                             url = "/"+result['objectKey']
                                                                              labels = result['labels']
                                                                              final = {
                                                                                  "url":url,
