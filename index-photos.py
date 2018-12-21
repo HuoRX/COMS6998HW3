@@ -45,7 +45,7 @@ def lambda_handler(event, context):
     # --------------- es domain ------------------
     
     
-    host = 'vpc-photo-album-45bz2xdnfx6377asiud5qb2ary.us-east-2.es.amazonaws.com'
+    host = ''
     region = 'us-east-2'
     
     service = 'es'
